@@ -1,0 +1,709 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mycontainer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.body {
+  background-color: #d0d4dc;
+}
+
+.banner {
+  width: 1440px;
+  height: 460px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.head {
+  margin-top: 64px;
+  margin-bottom: 74px;
+}
+.head .mycont2 {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+.head .headertext {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  width: 203px;
+}
+.head .headertext1 {
+  color: #000;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 220px;
+  height: 40px;
+  margin-left: 52px;
+}
+.head .headertext1 ::-webkit-input-placeholder {
+  left: 50px;
+}
+.head .headertext1 ::-moz-placeholder {
+  left: 50px;
+}
+.head .headertext1 :-ms-input-placeholder {
+  left: 50px;
+}
+.head .headertext1 ::-ms-input-placeholder {
+  left: 50px;
+}
+.head .headertext1 ::placeholder {
+  left: 50px;
+}
+.head .search {
+  width: 416px;
+  height: 56px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 30px;
+  background: #F7D8D4;
+  border: none;
+  margin-left: 52px;
+  margin-right: 12px;
+}
+.head .heart {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.head .geo {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.head .profile {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.s-1 .mshobeli {
+  position: relative;
+  width: 1440px;
+  height: 460px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.s-1 .shvili {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.s-1 .bannerb {
+  color: #FFF;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.s-2 .s2 {
+  margin: 112px;
+}
+.s-2 .s2 .infobox {
+  margin: 0 auto;
+  width: 1200px;
+  height: 376px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 52px;
+  border: 1px solid #B8BECA;
+  background: linear-gradient(96deg, #B8BECA 0%, rgba(184, 190, 202, 0) 100%);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(28px);
+          backdrop-filter: blur(28px);
+}
+.s-2 .s2 .infobox .outtitle {
+  color: #000;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 46px;
+}
+.s-2 .s2 .infobox .title {
+  margin: 0 auto;
+  width: 656px;
+  height: 48px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 70px;
+  background: #13264E;
+  margin-top: 48px;
+  position: relative;
+}
+.s-2 .s2 .infobox .title .titlep {
+  position: absolute;
+  top: 12px;
+  left: 155px;
+  color: #FFF;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.s-3 .sec3 {
+  margin-bottom: 125px;
+}
+.s-3 .sec3 .firstimg {
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  width: 672px;
+  height: 448px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.s-3 .sec3 .img1 {
+  display: inline-block;
+  vertical-align: top;
+}
+.s-3 .sec3 .texts3 {
+  display: inline-block;
+  vertical-align: top;
+  width: 424px;
+  height: 160px;
+  margin-left: 64px;
+}
+.s-3 .sec3 .texts3 .s3head {
+  color: #000;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.s-3 .sec3 .texts3 .s3head1 {
+  color: #000;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  vertical-align: top;
+  margin-bottom: 34px;
+}
+.s-3 .sec3 .texts3 .text2s3 {
+  margin-bottom: 32px;
+}
+.s-3 .sec3 .texts3 .text2s3 .texts3 {
+  color: #000;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.s-3 .sec3 .texts3 .button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 157px;
+  padding: 12px 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #13264E;
+}
+.s-3 .sec3 .texts3 .button .ix {
+  color: #FFF;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.texs3 {
+  color: #000;
+  font-family: BPG Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.mycontainer1 {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s-4 .s4 .buttext {
+  margin: 0 auto;
+  width: 616px;
+  height: 72px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 70px;
+  background: #13264E;
+  padding: 3.5px 120px;
+  margin-bottom: 35px;
+}
+.s-4 .s4 .buttext .butte {
+  margin-top: 17px;
+  color: #FFF;
+  font-family: BPG ExtraSquare;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 75% */
+}
+.s-4 .s4 .cards {
+  margin: 0 auto;
+}
+.s-4 .s4 .cards .card1 {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+.s-4 .s4 .cards .grn {
+  color: #FFF;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 9px;
+  margin-left: 23px;
+}
+.s-4 .s4 .cards .card2 {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+.s-4 .s4 .cards .card2 .incard {
+  margin-bottom: 85px;
+}
+.s-4 .s4 .cards .card2 .green2 {
+  width: 112px;
+  height: 48px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #FFF;
+  background: #38C976;
+  position: absolute;
+  left: 40px;
+  top: 140px;
+}
+.s-4 .s4 .cards .green1 {
+  width: 112px;
+  height: 48px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #FFF;
+  background: #38C976;
+  position: absolute;
+  left: 40px;
+  top: 56px;
+}
+.s-4 .s4 .cards .he {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: inline-block;
+  top: 56px;
+  left: 304px;
+}
+.s-4 .s4 .cards .he1 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: inline-block;
+  top: 140px;
+  left: 304px;
+}
+.s-4 .s4 .cards .card3 {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.s-4 .s4 .cards .h22 {
+  color: #000;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 400px;
+  margin-bottom: 4px;
+}
+.s-4 .s4 .cards .h221 {
+  color: #000;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 400px;
+  margin-bottom: 28px;
+}
+.s-4 .s4 .cards .h31 {
+  color: #000;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 13px;
+}
+.s-4 .s4 .cards .h32 {
+  color: #000;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 400px;
+  margin-bottom: 14px;
+}
+.s-4 .s4 .cards .button1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 131px;
+  padding: 12px 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #13264E;
+  margin-bottom: 80px;
+}
+.s-4 .s4 .cards .ix1 {
+  color: #FFF;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.s-4 .s4 .sl {
+  width: 400px;
+  height: 528px;
+  top: 1928px;
+  left: 100px;
+  border-radius: 40px;
+  margin-bottom: 25px;
+}
+
+.footer .foot {
+  height: 268px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: #e7e9ed;
+  margin-bottom: 78px;
+}
+.footer .foot .mycontainer2 {
+  max-width: 1064px;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer .foot .mycontainer2 .foote {
+  padding-top: 1px;
+  display: inline-block;
+}
+.footer .foot .mycontainer2 .foote .h23 {
+  color: #000;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 86px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.footer .foot .mycontainer2 .foote .tbc {
+  display: inline-block;
+  vertical-align: sub;
+}
+.footer .foot .mycontainer2 .cont {
+  display: inline-block;
+  margin-left: 650px;
+  vertical-align: middle;
+}
+.footer .foot .mycontainer2 .cont .conta {
+  color: #000;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  height: 70px;
+}
+.footer .foot .mycontainer2 .cont .fb {
+  margin-right: 10px;
+}
+.footer .foot .mycontainer2 .cont .insta {
+  margin-right: 10px;
+}
+
+#next {
+  margin-bottom: -1px;
+}
+
+.mycontainer3 {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.seccat1 .cat1 .infobox1 {
+  vertical-align: top;
+  width: 504px;
+  height: 832px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 52px;
+  border: 1px solid #C0C5D0;
+  background: linear-gradient(159deg, #B8BECA 1.78%, rgba(184, 190, 202, 0) 99.22%);
+  -webkit-box-shadow: 0px 24px 56px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 24px 56px 0px rgba(0, 0, 0, 0.16);
+  -webkit-backdrop-filter: blur(28px);
+          backdrop-filter: blur(28px);
+  position: relative;
+  display: inline-block;
+  margin-bottom: 72px;
+}
+.seccat1 .cat1 .infobox1 .blue {
+  width: 256px;
+  height: 64px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 24px;
+  background: #13264E;
+  top: 56px;
+  left: 124px;
+  position: absolute;
+}
+.seccat1 .cat1 .infobox1 .blue .bluep {
+  color: #FFF;
+  font-family: "BPG ExtraSquare", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.seccat1 .cat1 .infobox1 .gr {
+  width: 412px;
+  height: 636px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 52px;
+  opacity: 0.6;
+  background: #D0D4DC;
+  position: absolute;
+  top: 142px;
+  left: 46px;
+}
+.seccat1 .cat1 .news {
+  display: inline-block;
+  margin-left: 110px;
+}
+.seccat1 .cat1 .news .newsh2 {
+  color: #13264E;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  vertical-align: top;
+  margin-top: 76px;
+  margin-bottom: 72px;
+}
+.seccat1 .cat1 .news .newsimg {
+  width: 622px;
+  height: 648px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  display: inline-block;
+}
+
+.seccat2 .cat2 .cah2 {
+  color: #13264E;
+  font-family: "BPG Arial";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 47px;
+}
+.seccat2 .cat2 .catcard {
+  width: 292px;
+  height: 274px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: inline-block;
+}
+.seccat2 .cat2 .catcard .cardim {
+  width: 292px;
+  height: 274px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: 16px;
+}
+.seccat2 .cat2 .catcard .cah3 {
+  color: #000;
+  font-family: "BPG ExtraSquare";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.seccat2 .cat2 .catcard .cah4 {
+  color: #000;
+  font-family: "BPG ExtraSquare";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.seccat2 .cat2 .catcard .cah5 {
+  color: #000;
+  font-family: "BPG Arial";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.seccat2 .cat2 .catcard .blbut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 112px;
+  height: 40px;
+  padding: 10px 14px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 8px;
+  background: #13264E;
+  margin-top: 16px;
+}
+.seccat2 .cat2 .catcard .blbut .blba {
+  color: #FFF;
+  font-family: "BPG Arial", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#foo1 {
+  margin-top: 50px;
+}
+
+#lr1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#lr2 {
+  margin-right: 20px;
+}/*# sourceMappingURL=global.css.map */
